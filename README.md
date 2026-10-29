@@ -8,16 +8,6 @@ Responsive worldwide weather dashboard built with plain HTML, CSS, and JavaScrip
 - Fahrenheit / Celsius toggle, opt-in device location, manual refresh and 15-minute refresh while visible
 - Loading, empty-search and API-error states
 
-## Run locally
-Run `python3 -m http.server 8000 --directory dist` from this folder and open http://localhost:8000. An internet connection is needed for weather data and optional Google Fonts.
-
-## Transfer to GitHub / GitHub Pages
-1. Create a GitHub repository.
-2. Upload the **contents** of `dist/` (`index.html`, `styles.css`, `app.js`) to the repository root. Include this README if desired.
-3. In the repository, open Settings → Pages → Deploy from a branch.
-4. Choose `main` and `/ (root)`, then Save.
-5. Open the URL GitHub provides after deployment.
-
 All asset links are relative, so project repositories under a subpath work. No credentials belong in the repository. The `.openai/` folder in this source checkout is for the optional ChatGPT Sites deployment and is not needed for GitHub Pages.
 
 ## Data and licensing
