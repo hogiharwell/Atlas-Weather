@@ -14,3 +14,5 @@ All asset links are relative, so project repositories under a subpath work. No c
 Forecast and geocoding: https://open-meteo.com/ and https://open-meteo.com/en/docs/geocoding-api . Keep visible attribution. Current conditions are weather-model estimates, not instantaneous station observations. The displayed time is local to the selected location; cards refresh every 15 minutes while the page is visible. Regional cities are representative, not a complete listing of every location.
 
 Check https://open-meteo.com/en/terms and current API limits before commercial deployment; commercial use may require a paid service. Browser requests expose users' IP addresses and selected coordinates to the data provider. Device location is requested only when the visitor clicks the location button. This app stores no location history.
+
+CREDIT WHERE IT'S DUE: I did use Claude for optional stuff, aka google fonts, design, however framework and everything else is me.
